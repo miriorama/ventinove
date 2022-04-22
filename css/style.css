@@ -17,6 +17,7 @@ body {
   }
 
   .bar {
+    display: none;
     z-index: 10;
     position: fixed;
     bottom: 0;
@@ -25,14 +26,16 @@ body {
   }
 
   .log {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
   }
 
   .mode {
+
     position: fixed;
-    bottom: 50px;
+    bottom: 0;
     left: 0;
   }
 

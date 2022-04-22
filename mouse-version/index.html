@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ventinove Generator</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <script src="js/ccapture.all.min.js" defer></script>
+  </head>
+  <body>
+    <img src="img/cover.png" onload="pattern = kal.ctx.createPattern(img, 'repeat');KAL.loop();" alt="">
+    <canvas class="c" onclick="KAL.reset();"></canvas>
+
+    <!-- <div class="h-line h-line-1"></div>
+    <div class="h-line h-line-2"></div>
+    <div class="h-line h-line-3"></div>
+    <div class="v-line v-line-1"></div>
+    <div class="v-line v-line-2"></div>
+    <div class="v-line v-line-3"></div> -->
+
+    <div class="bar">
+      <button onclick="KAL.startRecording()">start recording</button>
+      <button onclick="KAL.stopRecording()">stop recording</button>
+    </div>
+    <div class="log"></div>
+    <div class="mode"></div>
+  </body>
+</html>
