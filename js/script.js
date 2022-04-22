@@ -33,7 +33,7 @@ var KAL = (function() {
         kal.w2 = kal.w/2 , kal.h2 = kal.h/2;
 
         img = new Image();
-        img.src = "/img/cover.png";
+        img.src = "img/cover.png";
         img.onload = function() {
             pattern = kal.ctx.createPattern(img, 'repeat');
             KAL.loop();
