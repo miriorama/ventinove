@@ -1,0 +1,78 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 0em;
+  }
+
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vmin;
+  }
+
+  .bar {
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .log {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .mode {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+  }
+
+  button {
+    z-index: 100;
+  }
+
+
+  .h-line {
+    position: fixed;
+    width: 2px;
+    height: 100%;
+    background-color: greenyellow;
+    top: 0;
+  }
+  .v-line {
+    position: fixed;
+    width: 100%;
+    height: 2px;
+    background-color: greenyellow;
+    bottom: 0;
+  }
+
+.h-line-1 {
+    left: 25%;
+}
+.h-line-2 {
+  left: 50%;
+}
+.h-line-3 {
+left: 75%;
+}
+
+.v-line-1 {
+  bottom: 25%;
+}
+.v-line-2 {
+bottom: 50%;
+}
+.v-line-3 {
+bottom: 75%;
+}
